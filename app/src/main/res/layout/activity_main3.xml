@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="281dp"
+        android:layout_height="166dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="51dp"
+        android:gravity="center"
+        android:text="Splash Screen"
+        android:textColor="#00574B"
+        android:textSize="75px"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="263dp"
+        android:layout_height="176dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="307dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:text="Copyright 2019"
+        android:textColor="#00574B"
+        android:textSize="10sp" />
+</RelativeLayout>
